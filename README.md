@@ -4,7 +4,7 @@ Set of demos to demostrate Envoy features running together with K8s API and Prom
 
 ## Getting started
 
-Choose one in Prometheus or K8s API and run the bellow command:
+Choose between `Prometheus` or `K8s API` and run the below command:
 
 ```sh
 ./deploy.sh <folder-name>
@@ -18,5 +18,6 @@ Choose one in Prometheus or K8s API and run the bellow command:
 
 Fault injection is a technique for improving the coverage of a test by introducing faults to test code paths, in particular error handling code paths, that might otherwise rarely be followed. The filter ( `http_filters` in the demo ) can be used to inject delays (`delay` folder) and abort requests (`abort` folder) with user-specified error codes.
 
-
 ## Timeouts and Retry
+
+TBD
